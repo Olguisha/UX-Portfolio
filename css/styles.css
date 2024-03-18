@@ -21,6 +21,9 @@ header {
 
 .photo{
     border-radius: 1000px;
+    }
+footer{
+    padding: 35px 15px 35px 15px;
 }
 /* Heading styles */
 h1 {
