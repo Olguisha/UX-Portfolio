@@ -12,14 +12,16 @@
 
     <!-- Section for CSS -->
     <!-- Reference to Bootstrap stylesheet -->
+    <link rel="stylesheet"
+          href="css/bootstrap.css">
 
     <!-- Reference to our stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Reference to Google Fonts stylesheet -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -28,7 +30,7 @@
 
     <header>
         
-        <img class="photo" src="images/Olga_Peral_Headshot.jpg" width="75" height="75">
+        <img class="photo" src="images/Olga_Peral_Headshot.jpg" width="200px" height="200px">
         
         <h1>Olga Peral</h1>
         <h2>Aspiring UX & UI designer from Spain</h2>
@@ -38,11 +40,18 @@
     <div class="projects">
         <h3>My Projects</h3>
         
-        <div class="project" style="background-image: url(images/project-design-improvements.png)">
-            <a href="project.html">
-                <h4>TfL journey planner design improvements</h4>
-            </a>
+        <div class="row justify-content-center">
         
+            <div class="project  col-10 col-md-3" style="background-image: url(images/project-design-improvements.png)">
+                <a href="project.html">
+                <h4>TfL journey planner design improvements</h4>
+                </a>
+            </div>
+            <div class="project  col-10 col-md-3" style="background-image: url(images/project-design-improvements.png)">
+                <a href="project.html">
+                <h4>TfL journey planner design improvements</h4>
+                </a>
+            </div>
         </div>
     </div>
     <div class="about">
@@ -53,10 +62,12 @@
     
     </div>
     
-    <footer>
-        <h3>Get in touch</h3>
-        <a href="mailto:olgaperalperez@gmail.com">olgaperalperez@gmail.com</a>
-        <a class="btn-primary" href="portfolio.pdf">Download Portfolio</a>
+    <footer class="row justify-content-center">
+        
+            <h3 class="col-12">Get in touch</h3>
+            <a class="col 12" href="mailto:olgaperalperez@gmail.com">olgaperalperez@gmail.com</a>
+            <a class="btn-primaryvcol-8 col-md-3 col-lg-2" href="portfolio.pdf">Download Portfolio</a>
+        
         
     </footer>
     
